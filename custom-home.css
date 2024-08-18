@@ -1,0 +1,61 @@
+/*-----Home-----*/
+
+.myinfo {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: #94d3c5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), /* เงาหลัก */
+                0 3px 6px rgba(0, 0, 0, 0.2); /* เงารอง */
+    padding: 20px; /* เพิ่มพื้นที่ภายใน block เพื่อให้เนื้อหามีที่ว่าง */
+}
+
+.image {
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+    z-index: 1;
+}
+
+.name{
+    color: #fff;
+    font-size: 50px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mid-head {
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 30px;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.profile-info {
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 50px;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.profile-info ul {
+    line-height: 70px;
+}

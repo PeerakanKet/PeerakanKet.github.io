@@ -1,0 +1,61 @@
+/*-----Contact-----*/
+
+.coninfo {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: #488be2;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), /* เงาหลัก */
+                0 3px 6px rgba(0, 0, 0, 0.2); /* เงารอง */
+    padding: 20px; /* เพิ่มพื้นที่ภายใน block เพื่อให้เนื้อหามีที่ว่าง */
+}
+
+.contact {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), /* เงาหลัก */
+                0 3px 6px rgba(0, 0, 0, 0.2); /* เงารอง */
+    padding: 20px; /* เพิ่มพื้นที่ภายใน block เพื่อให้เนื้อหามีที่ว่าง */
+}
+
+.icon i1 {
+    font-size: 3rem;
+    color: #2ab31d;
+}
+
+.icon i2 {
+    font-size: 3rem;
+    color: #a02d2d;
+}
+
+.icon i3 {
+    font-size: 3rem;
+    color: #276ace;
+}
+
+.icon i4 {
+    font-size: 3rem;
+    color: #40d332;
+}
+
+.icon i5 {
+    font-size: 3rem;
+    color: #ee2d2d;
+}
+
+.icon-text {
+    color: #000;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}

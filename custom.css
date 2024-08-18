@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.head-topic {
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+hr {
+    border: 0;
+    border-top: 4px solid #fff;
+    margin: 5px 20px;
+    margin-left: 0;
+}
+
+.hr-style1 {
+    border: 0;
+    border-top: 4px solid #fff;
+    margin: 20px 5px;
+    margin-left: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav {
+    padding: 2rem;
+    width: 100%;
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 20px;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.menu li {
+    margin: 0 4rem; /*ความห่างของเมนู*/
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none; /*ไม่ใส่เส้นใต้*/
+}
+
+.menu li a:hover {
+    color: #bbbbbb
+}
+
+.content {
+    padding: 20px;
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333333; /* สีพื้นหลังของแถบล่าง */
+    color: #3a3a3a; /* สีข้อความ */
+    text-align: center;
+    padding: 10px 0; /* ช่องว่างด้านบนและด้านล่าง */
+    z-index: 100;
+}
+
+.bottom-bar p {
+    margin: 0;
+    font-size: 16px;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bottom-bar a {
+    text-decoration: none;
+    color: #444444;
+}
+
+@media (max-width: 1035px) {
+    .topic {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+    }
+}
+
+@media (max-width: 900px) {
+    .menu li{
+        margin: 0 2rem;
+    }
+}

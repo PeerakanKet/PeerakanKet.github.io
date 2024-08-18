@@ -1,0 +1,73 @@
+/*-----Projects-----*/
+
+.proinfo {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: #743dbd;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), /* เงาหลัก */
+                0 3px 6px rgba(0, 0, 0, 0.2); /* เงารอง */
+    padding: 20px; /* เพิ่มพื้นที่ภายใน block เพื่อให้เนื้อหามีที่ว่าง */
+}
+
+.mid-head-pro {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pro-img {
+    margin-top: 40px;
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.pro-info {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.pro-link {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #f0c040;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: inset 0 4px 6px rgba(255, 255, 255, 0.5), /* เงาด้านใน */
+                0 6px 10px rgba(0, 0, 0, 0.2), /* เงาด้านนอก */
+                0 4px 6px rgba(0, 0, 0, 0.15); /* เงาด้านล่าง */
+    transition: all 0.3s ease; /* เพิ่มการเปลี่ยนแปลงเมื่อมีการโฮเวอร์ */
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    margin-top: 40px;
+}
+
+.pro-link:hover {
+    background-color: #e09b20; /* สีพื้นหลังเมื่อเมาส์วางบนลิ้งค์ */
+    box-shadow: inset 0 4px 6px rgba(255, 255, 255, 0.6), /* เงาด้านในเข้มขึ้น */
+                0 8px 12px rgba(0, 0, 0, 0.25), /* เงาด้านนอกเข้มขึ้น */
+                0 6px 8px rgba(0, 0, 0, 0.2); /* เงาด้านล่างเข้มขึ้น */
+    transform: translateY(-2px); /* ยกปุ่มขึ้นเล็กน้อย */
+}

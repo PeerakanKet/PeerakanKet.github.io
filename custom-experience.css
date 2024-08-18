@@ -1,0 +1,46 @@
+/*-----Experience-----*/
+
+.expinfo {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: #e4c412;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), /* เงาหลัก */
+                0 3px 6px rgba(0, 0, 0, 0.2);/* เงารอง */
+    padding: 20px; /* เพิ่มพื้นที่ภายใน block เพื่อให้เนื้อหามีที่ว่าง */
+}
+
+.mid-head-exp {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.exp-img {
+    margin-top: 40px;
+    height: 300px;
+    width: 420px;
+    border-radius: 5px;
+}
+
+.exp-info {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
