@@ -83,6 +83,11 @@ nav {
     text-decoration: none; /*ไม่ใส่เส้นใต้*/
 }
 
+.menu li a.active {
+    color: #f0f0f0; /* เปลี่ยนสีของข้อความให้เด่น */
+    border-bottom: 2px solid #fff; /* เพิ่มเส้นขอบด้านล่าง */
+}
+
 .menu li a:hover {
     color: #bbbbbb
 }
